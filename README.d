@@ -6,5 +6,10 @@
 `docker run -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower --run-once`
 
 
+## Ollama exposé sur le réseau
+launchctl setenv OLLAMA_HOST "0.0.0.0"
+launchctl setenv OLLAMA_ORIGINS "*"
+
+
   
   
