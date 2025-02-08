@@ -7,8 +7,7 @@
 
 
 ## Ollama exposé sur le réseau
-launchctl setenv OLLAMA_HOST "0.0.0.0"
-launchctl setenv OLLAMA_ORIGINS "*"
+launchctl setenv OLLAMA_HOST "0.0.0.0:11434"
 
 
   
