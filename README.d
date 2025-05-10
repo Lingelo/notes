@@ -10,5 +10,8 @@
 launchctl setenv OLLAMA_HOST "0.0.0.0:11434"
 
 
+  ##n8n peermission nas
+chown 1000:1000 /mnt/cache/appdata/n8n
+
   
   
